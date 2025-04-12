@@ -282,10 +282,10 @@ const config: z.input<typeof Schema_Config> = {
      */
     footer: [
   {
-    "value": "{{ poweredBy }}"
+    "value": "{{ siteName }} © {{ year }}"
   },
   {
-    "value": "Made with ❤️ by [**{{ author }}**](https://github.com/mbaharip)"
+    "value": "Made with ❤️ by [**{{ author }}**](https://hardik.pw)"
   }
 ],
     /**
