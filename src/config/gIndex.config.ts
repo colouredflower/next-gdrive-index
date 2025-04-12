@@ -137,7 +137,7 @@ const config: z.input<typeof Schema_Config> = {
      *
      * Default: 4MB
      */
-    maxFileSize: 0,
+    maxFileSize: 4194304,
 
     /**
      * Allow user to download protected file without password.
