@@ -172,7 +172,7 @@ const config: z.input<typeof Schema_Config> = {
      *
      * You can set it to undefined if you don't want to use it
      */
-    siteName: "gdrive-index",
+    siteName: "Hardik's Index",
     siteNameTemplate: "%s - %t",
     siteDescription: "A simple file browser for Google Drive",
     siteIcon: "/logo.svg",
