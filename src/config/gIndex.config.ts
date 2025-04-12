@@ -124,7 +124,7 @@ const config: z.input<typeof Schema_Config> = {
      *
      * Default: 100MB
      */
-    streamMaxSize: 104857600,
+    streamMaxSize: 0,
 
     /**
      * Maximum file size that can be downloaded via api routes
@@ -137,7 +137,7 @@ const config: z.input<typeof Schema_Config> = {
      *
      * Default: 4MB
      */
-    maxFileSize: 4194304,
+    maxFileSize: 0,
 
     /**
      * Allow user to download protected file without password.
@@ -146,7 +146,7 @@ const config: z.input<typeof Schema_Config> = {
      *
      * Default: false
      */
-    allowDownloadProtectedFile: false,
+    allowDownloadProtectedFile: true,
 
     /**
      * Duration in hours.
@@ -176,7 +176,7 @@ const config: z.input<typeof Schema_Config> = {
     siteNameTemplate: "%s - %t",
     siteDescription: "A simple file browser for Google Drive",
     siteIcon: "/logo.svg",
-    siteAuthor: "mbaharip",
+    siteAuthor: "Hardik",
     favIcon: "/favicon.png",
     /**
      * Next.js Metadata robots object
